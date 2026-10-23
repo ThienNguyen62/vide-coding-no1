@@ -1,4 +1,4 @@
-
+import TodoList from "./todo/todo.list";
 const Home = ()=> {
 
     const name =" dădwadaw";
@@ -23,10 +23,12 @@ const Home = ()=> {
          
             return (<div>{item.name} -{item.age}</div>);
          })}
-    
+        
+        <TodoList />
     
     
        </div>
+      
     );
 }
 export default Home;
